@@ -40,4 +40,39 @@ Siga os passos abaixo para clonar o repositório e iniciar o projeto localmente:
 
 #### 1. Clone o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/fernandesmelo/llm-large-language-model.git
+```
+
+#### 2. Acesse a pasta do backend
+```bash
+cd llm-large-language-model/backend
+```
+
+#### 3. Instale as dependências do backend
+```bash
+npm install
+```
+
+#### 4. Gere uma nova chave de API na OpenRouter
+1. Acesse https://openrouter.ai/keys
+2. Faça login ou crie uma conta.
+3. No menu do usuário (geralmente no canto superior direito), clique em "API Keys" ou acesse diretamente: https://openrouter.ai/keys
+4. Clique em "Create new key" ou "Generate new key". Dê um nome para identificar a chave e confirme.
+5. Copie a nova chave e substitua no seu arquivo .env
+
+
+#### 5. Crie o arquivo .env na pasta backend
+Crie um arquivo chamado .env dentro da pasta backend e adicione a seguinte linha, substituindo SUA_CHAVE_AQUI pela chave copiada:
+```bash
+OPENROUTER_API_KEY=SUA_CHAVE_AQUI
+```
+
+#### 6. Inicie o backend
+```bash
+npm start
+```
+
+#### 7. Rode o frontend
+Abra o arquivo frontend/index.html no seu navegador para acessar a interface do assistente.
+
+
