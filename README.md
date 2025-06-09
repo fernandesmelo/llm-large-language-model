@@ -2,6 +2,9 @@
 
 Este projeto é um assistente virtual especializado em festivais de música eletrônica. Ele possui um backend em Node.js que recebe perguntas do usuário, consulta uma API de IA (OpenRouter) e retorna respostas detalhadas sobre eventos, artistas, estilos, dicas de viagem, ingressos, equipamentos e tudo relacionado ao universo dos festivais eletrônicos. 
 
+[screen-capture.webm](https://github.com/user-attachments/assets/2d7bdd4f-4784-40c1-94f6-8905a6803bc1)
+
+
 ## 🛠️ Construído com
 
 <div style="display: inline-block"><br/>
