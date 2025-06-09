@@ -1,79 +1,74 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  body {
-    background: #f7f9fc;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-  }
-  
-  .container {
-    background: white;
-    padding: 20px 30px;
-    margin-top: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    width: 90%;
-    max-width: 600px;
-  }
-  
-  h1 {
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  textarea {
-    width: 100%;
-    padding: 15px;
-    font-size: 1.1em;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    resize: vertical;
-    transition: border-color 0.3s ease;
-  }
-  
-  textarea:focus {
-    border-color: #3498db;
-    outline: none;
-  }
-  
-  button {
-    margin-top: 15px;
-    padding: 12px 20px;
-    width: 100%;
-    font-size: 1.2em;
-    color: white;
-    background-color: #3498db;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #2980b9;
-  }
-  
-  h2 {
-    margin-top: 30px;
-    color: #34495e;
-  }
-  
-  .answer {
-    margin-top: 10px;
-    padding: 15px;
-    background: #ecf0f1;
-    border-radius: 6px;
-    min-height: 60px;
-    white-space: pre-wrap;
-    font-size: 1.1em;
-    color: #2c3e50;
-  }
-  
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: url('../assets/tomorrowland.jpg') center center/cover no-repeat fixed, #f7f9fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px 30px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1,
+h2 {
+  color: #1b2e1b;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 1.2em;
+  color: #fff;
+  background: linear-gradient(90deg, #4caf50 0%, #2196f3 100%);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.12);
+}
+
+button:hover {
+  background: linear-gradient(90deg, #388e3c 0%, #1565c0 100%);
+}
+
+.answer {
+  margin-top: 10px;
+  padding: 15px;
+  background: #ecf0f1;
+  border-radius: 6px;
+  min-height: 60px;
+  white-space: pre-wrap;
+  font-size: 1.1em;
+  color: #2c3e50;
+}
