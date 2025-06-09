@@ -75,4 +75,5 @@ npm start
 #### 7. Rode o frontend
 Abra o arquivo frontend/index.html no seu navegador para acessar a interface do assistente.
 
-
+## ⚙️ Executando os Testes
+Próximos passos...
